@@ -2,7 +2,6 @@ import numpy as np
 import cv2
 import glob
 
-
 #對每張圖片，識別出角點，記錄世界物體座標和影象座標
 def findChessboardCorners(images,show):
     # termination criteria
