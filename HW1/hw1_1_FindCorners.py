@@ -40,8 +40,8 @@ def findChessboardCorners(images,show):
             if show:
                 # Draw and display the corners
                 img = cv2.drawChessboardCorners(img, (11,8), corners2,ret)
-                cv2.namedWindow("findCorners",0);
-                cv2.resizeWindow("findCorners", 1080, 640);
+                cv2.namedWindow("findCorners",0)
+                cv2.resizeWindow("findCorners", 1080, 640)
                 cv2.imshow('findCorners',img)
                 cv2.waitKey(500)
     
